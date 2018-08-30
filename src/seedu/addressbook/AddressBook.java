@@ -207,6 +207,7 @@ public class AddressBook {
      */
 
     public static void main(String[] args) {
+        System.out.println("hello world");// add some thing for the test
         showWelcomeMessage();
         processProgramArgs(args);
         loadDataFromStorage();
@@ -620,6 +621,7 @@ public class AddressBook {
      */
     private static void showToUser(String... message) {
         for (String m : message) {
+            System.out.println("Welcome to address book");
             System.out.println(LINE_PREFIX + m);
         }
     }
